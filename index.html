@@ -10,14 +10,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Sacramento&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="top-container">
+     <div>
+      <nav>
+        <ul class="menu">
+          <li class="navMenu"><a href="#home">Home</a></li>
+          <li class="navMenu"><a href="#about">About</a></li>
+          <li class="navMenu"><a href="#Skils">Skils</a></li>
+          <li class="navMenu"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="top-container" id="home">
+      
       <img class="top-cloud"src="images/cloud.png" alt="cloud-img">
       <h1>I'm Abhijeet</h1>
       <h2>a passionate programmer</h2>
       <img class="buttom-cloud" src="images/cloud.png" alt="cloud-img">
       <img src="images/mountain.png" alt="Mountain-img">
     </div>
-    <div class="middle-container">
+    <div class="middle-container" id="about">
       <div class="profile">
         <img class="personal" src="images/profile pic.png" alt="Profile-pic">
         <h2>Hello.</h2>
@@ -25,8 +36,8 @@
       </div>
       <hr>
       <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
+        <h2 id="Skils">My Skills.</h2>
+        <div class="skill-row" >
           <img class="l-a"src="images/javaimg.png" alt="java-pic">
           <h3>Java Programming </h3>
           <p>
@@ -71,7 +82,7 @@
             With my expertise in these Java concepts, I am equipped to develop diverse applications, ranging from small-scale command-line tools to large-scale enterprise systems and web applications. I remain committed to continuous learning and exploring new concepts, libraries, and frameworks to stay updated with the evolving Java ecosystem.
             </p>
         </div>
-        <div class="skill-row">
+        <div class="skill-row" >
           <img class="r-a"src="images/C++img.png"alt="C++-pic">
           <h3>C++ Programming</h3>
           <p>I have knowledge about C++ programming concepts such as all syntax, OOPS concepts, managing Console, I/O Operations, File Systems, etc.</p>
@@ -82,7 +93,7 @@
           <p>I have knowledge of C programming concepts of syntax and implementation of  Array, Pointer, function, structure, file handling, etc. </p>
         </div>
         <div class="skill-row">
-          <img class="r-a"src="images/Dsimage.png" alt="Ds-pic">
+          <img class="r-a"src="images/DsImage.png" alt="ds-img">
           <h3>Data Structure</h3>
           <p>I have knowledge about data structure concepts such as queue, stack, Linked list, Hashmap, tree, searching technique, sorting, etc.</p>
         </div>
@@ -102,11 +113,14 @@
           <p>I have knowledge of basic HTML tags.</p>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
       <hr>
-      <div class="contact-me">
+      <div class="contact-me" id="contact">
         <h2>Get In Touch</h2>
         <div>
-          <h3>CONTACT ME</h3>
+          <h3>CONTACT FORM</h3>
           <script src="https://sheetdb.io/s/f/vb7vrez9s5g65.js"></script>
         </div>
         <a class="buttonRes" href="Resume.pdf" download="Abhijeet Resume">RESUME</a>
